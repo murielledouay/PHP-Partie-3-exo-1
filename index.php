@@ -1,34 +1,28 @@
 <?php
-//déclaration des 2 variables avec les valeur
-$object = 'Réunion';
-$message = 'Bonjour, nous allons faire le point sur les chiffres en cours.';
+// création d'un tableau months qui contient les mois de l'année
+$months = array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
+// autre version
+$months2 = array();
+$months2 [0]= 'Janvier';
+$months2 [1]= 'Février';
+$months2 [2]= 'Mars';
+$months2 [3]= 'Avril';
+$months2 [4]= 'Mai';
+$months2 [5]= 'Juin';
+$months2 [6]= 'Juillet';
+$months2 [7]= 'Août';
+$months2 [8]= 'Septembre';
+$months2 [9]= 'Octobre';
+$months2 [10]= 'Novembre';
+$months2 [11]= 'Décembre';
 ?>
-
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-
 <head>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="assets/css/style.css"/>
-  <title>Partie 1 exo 1</title>
+  <title>Partie 3 exo 1</title>
 </head>
-
 <body>
-
-  <p>Objet :
-    <?php
-    //j'affiche avec echo la variable sur mon navigateur de l'objet
-    echo $object;
-    ?>
-  </p>
-
-
-  <p>
-    <?php
-      //j'affiche avec echo la variable du message sur mon navigateur
-    echo $message;
-    ?>
-  </p>
-
 </body>
 </html>
